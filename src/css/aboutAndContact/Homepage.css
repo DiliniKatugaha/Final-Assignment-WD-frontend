@@ -1,0 +1,26 @@
+.backgroundH{
+    background-color: rgb(217, 217, 217);
+    height:100vh;
+    display:flex;
+}
+.homepageComponent{
+    background-color:rgb(216, 193, 193);
+    width: 450px;
+    height:460px;
+    border-radius: 20px;
+    justify-content: center;
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 150px;
+    padding-top: 20px;
+    padding-right: 10px;
+
+}
+
+.imgh{
+    height:646px;
+    width: auto;
+    margin-left: 285px;
+    
+    
+}

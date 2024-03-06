@@ -1,0 +1,58 @@
+.sign {
+    display: block;
+    margin-bottom: 0px;
+    justify-content: start;
+    }
+
+.inp {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    }
+
+.signupComponent{
+    background-color: #f7f2f2;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+    width: 1000px;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+.inputs{
+    display:flex;
+    justify-content: center;
+    
+}
+
+.hf{
+    font-size: 18px;
+    font-weight: bold;
+    color: #7a0101;
+    display: flex;
+    align-content: center;
+    margin: 10px;
+    padding-left: 25px;
+    padding-bottom: 30px;
+}
+
+.delivery{
+    margin-left: 10px;
+}
+
+.admin{
+    background-color: rgb(112, 7, 7);
+    border:0;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0;
+    padding-left: 10px;
+    color: #fffefe;
+    width: 100px;
+}
+
+/* .link{
+
+} */
+    

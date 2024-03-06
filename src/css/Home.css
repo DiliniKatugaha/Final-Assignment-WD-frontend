@@ -1,0 +1,32 @@
+.background{
+    background-color: rgb(217, 217, 217);
+    height:100vh;
+    display:flex;
+}
+.homeComponent{
+    background-color:rgb(216, 193, 193);
+    width: 470px;
+    height:500px;
+    border-radius: 20px;
+    justify-content: center;
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 80px;
+    padding-top: 20px;
+    padding-right: 10px;
+
+}
+
+
+.btn{
+    display: flex;
+    margin: 10px;
+    padding-left: 10px;
+}
+.imgh{
+    height:646px;
+    width: auto;
+    margin-left: 270px;
+    
+    
+}

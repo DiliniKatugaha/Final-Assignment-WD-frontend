@@ -1,0 +1,125 @@
+
+.Nav{
+    display: flex;
+    background-color: rgb(112, 105, 97);
+    color:rgb(255, 255, 255);
+    position: fixed;
+    width: 100vw;
+    
+}
+.hSpan{
+    color: rgba(223, 14, 14, 0.945);
+}
+.heading{
+    margin-top: 10px;
+    margin-left: 80px;
+
+}
+
+.navIcons{
+    margin-left: 100px;
+    margin-top: 20px;
+    display: flex;
+}
+
+.navicon{
+    cursor: pointer;
+    background-color: rgba(122, 122, 122, 0.47);
+
+    color: rgb(254, 254, 254);
+    height: 50px;
+    padding: 10px;
+    margin: 10px;
+    width: 100px;
+    border-radius: 10px;
+}
+.navicon:hover{
+    color: rgb(250, 250, 250);
+    background-color:crimson;
+    transition: all 500ms ease;
+
+}
+
+.signout{
+    cursor: pointer;
+    background-color: rgb(155, 9, 9);
+    color: rgb(254, 254, 254);
+    height: 50px;
+    padding: 10px;
+    margin: 10px;
+    width: 100px;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: 50px;
+ 
+}
+
+
+.imgn{
+    height: 80px;
+    width: 120px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.dropbtn {
+    background-color: rgba(122, 122, 122, 0.47);
+    border: none;
+    cursor: pointer;
+    color: rgb(254, 254, 254);
+    height: 50px;
+    padding: 10px;
+    margin: 10px;
+    width: 100px;
+    border-radius: 10px;
+  }
+  
+  .dropbtn:hover{
+    color: rgb(250, 250, 250);
+    background-color:crimson;
+    transition: all 500ms ease;
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #705b5b;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: rgb(255, 255, 255);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown-content a:hover {background-color: #6e4848;}
+
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: crimson;}
+
+  .home{
+    cursor: pointer;
+    background-color: rgba(122, 122, 122, 0.47);
+
+    color: rgb(254, 254, 254);
+    height: 50px;
+    padding: 10px;
+    margin: 10px;
+    width: 150px;
+    border-radius: 10px;
+  }
+
+  .home:hover{
+    color: rgb(250, 250, 250);
+    background-color:crimson;
+    transition: all 500ms ease;
+  }

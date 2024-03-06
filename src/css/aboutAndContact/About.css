@@ -1,0 +1,33 @@
+.aboutComponent{
+    background-color:rgb(217, 217, 217);
+    height:100vh;
+}
+
+.hb1{
+    color: rgb(122, 12, 12);
+}
+.hb6{
+    text-align: start;
+    margin-left: 500px;
+    font-weight:bolder;
+}
+.about{
+    background-color: rgb(219, 205, 205);
+    height: 525px;
+    width: 1250px;
+    margin-left: 25px;
+    padding: 10px;
+    margin-top: 70px;
+}
+.pb{
+    text-align: start;
+    margin-left: 20px;
+    font-size:14px;
+    
+}
+
+.li{
+    margin-left: 20px;
+    text-align: left;
+    
+}

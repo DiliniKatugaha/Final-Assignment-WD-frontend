@@ -1,0 +1,39 @@
+.loginFormContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(154, 157, 157, 0.21);
+    max-width: 500px;
+
+    margin: 100px auto;
+    width: 500px;
+    border-radius: 10px;
+}
+.loginHeading{
+    margin-top: 20px;
+}
+.loginForm{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+.finp{
+    background-color: rgb(202, 202, 202);
+    border: 0;
+    border-radius: 5px;
+    padding: 8px;
+ 
+}
+.inpLable{
+    margin: 10px;
+}
+.sub{
+    background-color: rgb(112, 7, 7);
+    border:0;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0;
+    padding-left: 10px;
+    color: #fffefe;
+    
+}
