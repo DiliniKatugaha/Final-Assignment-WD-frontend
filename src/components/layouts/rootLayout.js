@@ -13,11 +13,12 @@ const RootLayout = () => {
 
     const isLoginPage = location.pathname === '/home/signin';
   const isSignupPage = location.pathname === '/home/signup';
-    const isHomePage = location.pathname === "/home";
+    const isHomePage = location.pathname === "/";
+    const isFarm =location.pathname === "/farm";
     return (
         
         <div className="rootLayout">
-             {!isLoginPage && !isSignupPage && !isHomePage && (
+             {!isLoginPage && !isSignupPage && !isHomePage && !isFarm&&(
         <div className="Nav">
             <div>
                 <img className='imgn' src={require ('../../assets/logo.png')}  alt="qdas"  />
@@ -27,7 +28,7 @@ const RootLayout = () => {
             </div>
             <div className="navIcons  ">
             <Link to={'/home/signin/homepage'} className="navicon "> Home </Link>
-                        <Link to={'products'} className='product navicon'>Products</Link>
+                        <Link to={'order'} className='product navicon'>Products</Link>
                 <Link to={'about'} className="navicon  ">About Us</Link>
                 <Link to={'contact'} className="contactus  navicon  ">Contact Us</Link>
             </div>

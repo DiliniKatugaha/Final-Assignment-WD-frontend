@@ -13,7 +13,7 @@ const RootLayoutAdmin = () => {
 
     const isLoginPage = location.pathname === '/home/signin';
   const isSignupPage = location.pathname === '/home/signup';
-    const isHomePage = location.pathname === "/home";
+    const isHomePage = location.pathname === "/";
 
     return ( 
         <div className="rootLayout">

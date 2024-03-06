@@ -122,11 +122,14 @@
 
 
 
-
+.paymentPortalContainer{
+    padding-left: 350px;
+    padding-top: 100px;
+}
 .paymentForm{
     max-width: 600px;
     padding: 10px;
-    margin: 10px auto;
+    
 }
 .paymentForm h1{
     text-align: center;
