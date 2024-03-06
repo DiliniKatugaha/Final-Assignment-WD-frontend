@@ -110,13 +110,13 @@ const Checkout = () => {
                 <div className="h1">Order Details</div>
 
                 {cart.map((item, i) => {
-                    const itemTotal = item.unitPrice * item.quantity; // Calculate total for each item
+                    const itemTotal = item.unitPrice * item.quantity; 
                     return (
                         <div className="itemContainer" key={i}>
                             <div className="itemName">{item.itemName}</div>
                             <div className="quantity">{item.quantity}</div>
                             <div className="price">X{item.unitPrice}</div>
-                            <div className="total">={itemTotal}</div> {/* Display total for each item */}
+                            <div className="total">={itemTotal}</div> 
                         </div>
                     );
                 })}

@@ -38,11 +38,10 @@ const Farm = () => {
     
         try {
             const response = await axios.post('/order/additems', items);
-            console.log(response.data); // Check the response from the backend
+            console.log(response.data); 
             window.location.reload();
         } catch (error) {
             console.error(error);
-            // Handle error here, display a message to the user, etc.
         }
     };
 
