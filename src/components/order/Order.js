@@ -93,7 +93,7 @@ const Order = () => {
                                     <div className="details">
                                         <div className="itemName"><h2>{item.item_name}</h2></div>
                                         <div className="price"><h4>Rs.{item.unit_price}</h4></div>
-                                        <div className="quantity"><h6>In Stock</h6></div>
+                                        <div className="quantity"><h6>In Stock{item.quantiy}</h6></div>
                                         <div >
                                             <button className="cartBtn"
                                                 onClick={() => { addToCart(item.item_code, item.item_name, item.unit_price) }}>Add to Cart</button>

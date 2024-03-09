@@ -26,10 +26,10 @@ const Login = () => {
                 if (role.role === 'Customer') {
                     navigate("/home/signin/homepage");
                 } else if (role.role === 'Admin') {
-                    navigate("/admin/addemployee");
+                    navigate("/admin");
                 } else if (role.role === 'Delivery Manager') {
-                    navigate("/AssignDelivery /addstaff");
-                } else if (role === 'Farm Manager') {
+                    navigate("/delivery");
+                } else if (role.role === 'Farm Manager') {
                     navigate("/farm");
                 }
             })

@@ -18,7 +18,7 @@ const AddEmployee = () => {
     }
     const handleSubmit = (e)=>{
         e.preventDefault();
-        axios.post('employee/addemployee',employeeData).then(()=>{
+        axios.post('/employee/addemployee',employeeData).then(()=>{
             window.location.reload()
         })
         .catch(error => {
